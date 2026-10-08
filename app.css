@@ -1,0 +1,46 @@
+/* Standard link styles */
+body {
+  background-color: rgb(227, 170, 241);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% of the viewport height */
+}
+nav {
+  max-height: max-content;
+  max-width: fit-content;
+}
+nav a {
+  background-color: pink;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 5px;
+  max-width: max-content;
+  max-height: max-content;
+  border: 1px solid purple;
+}
+nav a:link {
+  color: blue;
+}
+nav a:visited {
+  color: purple;
+}
+nav a:hover {
+  color: green;
+}
+
+/* The active state style */
+nav a:active {
+  color: orange;
+  font-weight: bold;
+}
+h1 {
+  color: white;
+}
+.content-wrapper {
+  flex: 1;
+}
+footer {
+  margin: 10px;
+  color: purple;
+}
