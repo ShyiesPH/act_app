@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form>
+    <p>First Name:</p>
+    <input type="text" placeholder="Enter First name" />
+    <p>Middle Name:</p>
+    <input type="text" placeholder="Enter First name" />
+    <p>Last Name:</p>
+    <input type="text" placeholder="Enter First name" />
+    <p>Birthdate</p>
+    <div class="form-group">
+                <label for="birth-date" class="main-label">Date of Birth</label>
+                <input type="date" id="birth-date" name="birth-date">
+            </div>
+    <p>Status</p>
+    <div class="form-group">
+      <label class="main-label">Gender</label>
+      <div class="radio-container">
+        <label class="radio-option">
+          <input type="radio" name="single" value="single" />
+          <span>Single</span>
+        </label>
+        <label class="radio-option">
+          <input type="radio" name="married" value="married" />
+          <span>Married</span>
+        </label>
+        <label class="radio-option">
+          <input type="radio" name="widow" value="widow" />
+          <span>Widow</span>
+        </label>
+      </div>
+      <label class="radio-option">
+          <input type="radio" name="annauled" value="annauled" />
+          <span>Annauled</span>
+        </label>
+      </div>
+    </div>
+    <p>Gender</p>
+    <div class="form-group">
+      <label class="main-label">Gender</label>
+      <div class="radio-container">
+        <label class="radio-option">
+          <input type="radio" name="gender" value="male" />
+          <span>Male</span>
+        </label>
+        <label class="radio-option">
+          <input type="radio" name="gender" value="female" />
+          <span>Female</span>
+        </label>
+      </div>
+    </div>
+    <p>Email</p>
+    <input type="email" placeholder="Enter Email Address">
+    <p>Password</p>
+    <input type="password" placeholder="Enter Password">
+    <button name="submit">Submit</button>
+    </form>
+  </body>
+</html>
